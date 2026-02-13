@@ -1,0 +1,54 @@
+[33mcommit 1b6953f71fbe3b9391a67fbacdd44028db42e268[m
+Author: olyagul <eternal_olya.gul@mail.ru>
+Date:   Wed Feb 11 23:01:58 2026 +0300
+
+    Lab4
+
+[1mdiff --git a/app/__pycache__/__init__.cpython-312.pyc b/app/__pycache__/__init__.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3139ac0[m
+Binary files /dev/null and b/app/__pycache__/__init__.cpython-312.pyc differ
+[1mdiff --git a/app/__pycache__/admin.cpython-312.pyc b/app/__pycache__/admin.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9df5588[m
+Binary files /dev/null and b/app/__pycache__/admin.cpython-312.pyc differ
+[1mdiff --git a/app/__pycache__/apps.cpython-312.pyc b/app/__pycache__/apps.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ff51e36[m
+Binary files /dev/null and b/app/__pycache__/apps.cpython-312.pyc differ
+[1mdiff --git a/app/__pycache__/forms.cpython-312.pyc b/app/__pycache__/forms.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..24ad4d3[m
+Binary files /dev/null and b/app/__pycache__/forms.cpython-312.pyc differ
+[1mdiff --git a/app/__pycache__/models.cpython-312.pyc b/app/__pycache__/models.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4b6caa6[m
+Binary files /dev/null and b/app/__pycache__/models.cpython-312.pyc differ
+[1mdiff --git a/app/__pycache__/urls.cpython-312.pyc b/app/__pycache__/urls.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..83c6317[m
+Binary files /dev/null and b/app/__pycache__/urls.cpython-312.pyc differ
+[1mdiff --git a/app/__pycache__/views.cpython-312.pyc b/app/__pycache__/views.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..67e81b8[m
+Binary files /dev/null and b/app/__pycache__/views.cpython-312.pyc differ
+[1mdiff --git a/app/migrations/__pycache__/__init__.cpython-312.pyc b/app/migrations/__pycache__/__init__.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..121f897[m
+Binary files /dev/null and b/app/migrations/__pycache__/__init__.cpython-312.pyc differ
+[1mdiff --git a/project/__pycache__/__init__.cpython-312.pyc b/project/__pycache__/__init__.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..da01d46[m
+Binary files /dev/null and b/project/__pycache__/__init__.cpython-312.pyc differ
+[1mdiff --git a/project/__pycache__/settings.cpython-312.pyc b/project/__pycache__/settings.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dbdba95[m
+Binary files /dev/null and b/project/__pycache__/settings.cpython-312.pyc differ
+[1mdiff --git a/project/__pycache__/urls.cpython-312.pyc b/project/__pycache__/urls.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..773fe55[m
+Binary files /dev/null and b/project/__pycache__/urls.cpython-312.pyc differ
+[1mdiff --git a/project/__pycache__/wsgi.cpython-312.pyc b/project/__pycache__/wsgi.cpython-312.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..86a0b64[m
+Binary files /dev/null and b/project/__pycache__/wsgi.cpython-312.pyc differ

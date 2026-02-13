@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<title>Заказ пиццы</title>
+
+	<!-- CSS files with static -->
+	<link rel="stylesheet" href="{% static 'landing/css/bootstrap.min.css' %}">
+	<link rel="stylesheet" href="{% static 'landing/css/animate.min.css' %}">
+	<link rel="stylesheet" href="{% static 'landing/css/font-awesome.min.css' %}">
+  	<link rel="stylesheet" href="{% static 'landing/css/component.css' %}">
+    <link rel="stylesheet" href="{% static 'landing/css/owl.theme.css' %}">
+	<link rel="stylesheet" href="{% static 'landing/css/owl.carousel.css' %}">
+	<link rel="stylesheet" href="{% static 'landing/css/vegas.min.css' %}">
+	<link rel="stylesheet" href="{% static 'landing/css/style.css' %}">
+
+	<!-- Google web font -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+
+</head>
+<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+<!-- Preloader section -->
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-pulse"></div>
+</div>
+
+<!-- Navigation section -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#top" class="navbar-brand smoothScroll">Pizza</a>
+      </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
+            <li><a href="#about" class="smoothScroll"><span>About</span></a></li>
+            <li><a href="#gallery" class="smoothScroll"><span>Gallery</span></a></li>
+            <li><a href="#contact" class="smoothScroll"><span>Order</span></a></li>
+          </ul>
+       </div>
+    </div>
+</div>
+
+<!-- Home section -->
+<section id="home">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <h1 class="wow fadeInUp" data-wow-delay="0.6s">Закажи свою пиццу</h1>
+        <p class="wow fadeInUp" data-wow-delay="0.9s">Только свежие ингредиенты, быстрая доставка</p>
+        <a href="#contact" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-wow-delay="1.2s">Заказать</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About section -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-thumb">
+          <h1>О нашей пиццерии</h1>
+          <p>Мы готовим пиццу с любовью. Только свежие продукты, итальянские рецепты и быстрая доставка.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
+        <img src="{% static 'landing/images/about-img.jpg' %}" class="img-responsive img-circle" alt="About">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery section -->
+<section id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title">
+          <h1>Наши пиццы</h1>
+          <p>Выбери свою любимую пиццу из нашего ассортимента</p>
+        </div>
+      </div>
+
+      <ul class="grid cs-style-4">
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="{% static 'landing/images/gallery-img1.jpg' %}" alt="Маргарита"></div>
+            <figcaption>
+              <h1>Маргарита</h1>
+              <small>Томатный соус, моцарелла, базилик</small>
+              <a href="#">Заказать</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="{% static 'landing/images/gallery-img2.jpg' %}" alt="Пепперони"></div>
+            <figcaption>
+              <h1>Пепперони</h1>
+              <small>Томатный соус, моцарелла, пепперони</small>
+              <a href="#">Заказать</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="{% static 'landing/images/gallery-img3.jpg' %}" alt="Четыре сыра"></div>
+            <figcaption>
+              <h1>Четыре сыра</h1>
+              <small>Моцарелла, пармезан, горгонзола, фета</small>
+              <a href="#">Заказать</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="{% static 'landing/images/gallery-img4.jpg' %}" alt="Мясная"></div>
+            <figcaption>
+              <h1>Мясная</h1>
+              <small>Бекон, ветчина, пепперони, курица</small>
+              <a href="#">Заказать</a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Contact section - НАША ФОРМА ЗАКАЗА -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-offset-1 col-md-10 col-sm-12">
+        <div class="col-lg-offset-1 col-lg-10 section-title wow fadeInUp" data-wow-delay="0.4s">
+          <h1>Оформить заказ</h1>
+          <p>Заполните форму ниже, и мы привезем вашу пиццу</p>
+        </div>
+
+        <form method="post" action="" class="wow fadeInUp" data-wow-delay="0.8s">
+            {% csrf_token %}
+
+            <div class="col-md-6 col-sm-6">
+                <label>{{ form.name.label }}</label>
+                {{ form.name }}
+                {% if form.name.errors %}
+                    <div class="alert alert-danger">{{ form.name.errors }}</div>
+                {% endif %}
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <label>{{ form.phone.label }}</label>
+                {{ form.phone }}
+                {% if form.phone.errors %}
+                    <div class="alert alert-danger">{{ form.phone.errors }}</div>
+                {% endif %}
+            </div>
+
+            <div class="col-md-12 col-sm-12">
+                <label>{{ form.address.label }}</label>
+                {{ form.address }}
+                {% if form.address.errors %}
+                    <div class="alert alert-danger">{{ form.address.errors }}</div>
+                {% endif %}
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <label>{{ form.pizza_choice.label }}</label>
+                {{ form.pizza_choice }}
+                {% if form.pizza_choice.errors %}
+                    <div class="alert alert-danger">{{ form.pizza_choice.errors }}</div>
+                {% endif %}
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <label>{{ form.size.label }}</label>
+                <div class="radio-group" style="margin-top: 10px;">
+                    {% for radio in form.size %}
+                        <div style="margin-bottom: 8px;">
+                            {{ radio.tag }}
+                            <label for="{{ radio.id_for_label }}" style="margin-left: 5px;">
+                                {{ radio.choice_label }}
+                            </label>
+                        </div>
+                    {% endfor %}
+                </div>
+                {% if form.size.errors %}
+                    <div class="alert alert-danger">{{ form.size.errors }}</div>
+                {% endif %}
+            </div>
+
+            <div class="col-md-12 col-sm-12">
+                <label>{{ form.extra.label }}</label>
+                <div class="checkbox-group" style="margin-top: 10px; columns: 2;">
+                    {% for checkbox in form.extra %}
+                        <div style="margin-bottom: 8px;">
+                            {{ checkbox.tag }}
+                            <label for="{{ checkbox.id_for_label }}" style="margin-left: 5px;">
+                                {{ checkbox.choice_label }}
+                            </label>
+                        </div>
+                    {% endfor %}
+                </div>
+                {% if form.extra.errors %}
+                    <div class="alert alert-danger">{{ form.extra.errors }}</div>
+                {% endif %}
+            </div>
+
+            <div class="col-md-12 col-sm-12">
+                <label>{{ form.comment.label }}</label>
+                {{ form.comment }}
+                {% if form.comment.errors %}
+                    <div class="alert alert-danger">{{ form.comment.errors }}</div>
+                {% endif %}
+            </div>
+
+            <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+                <input type="submit" class="form-control" value="ЗАКАЗАТЬ ПИЦЦУ">
+            </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+                <ul class="social-icon">
+                    <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="0.2s"></a></li>
+                    <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="0.4s"></a></li>
+                    <li><a href="#" class="fa fa-linkedin wow fadeInUp" data-wow-delay="0.6s"></a></li>
+                    <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="0.8s"></a></li>
+                    <li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="1.0s"></a></li>
+                </ul>
+				<p class="wow fadeInUp" data-wow-delay="1s"> &copy; 2026 Pizza</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Back top -->
+<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- Javascript with static -->
+<script src="{% static 'landing/js/jquery.js' %}"></script>
+<script src="{% static 'landing/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'landing/js/vegas.min.js' %}"></script>
+<script src="{% static 'landing/js/modernizr.custom.js' %}"></script>
+<script src="{% static 'landing/js/toucheffects.js' %}"></script>
+<script src="{% static 'landing/js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'landing/js/smoothscroll.js' %}"></script>
+<script src="{% static 'landing/js/wow.min.js' %}"></script>
+<script src="{% static 'landing/js/custom.js' %}"></script>
+
+</body>
+</html>

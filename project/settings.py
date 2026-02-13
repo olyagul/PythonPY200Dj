@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app',
     'social_django',
+    'landing',
 ]
 
 MIDDLEWARE = [
@@ -129,9 +130,11 @@ AUTHENTICATION_BACKENDS = (
    'social_core.backends.github.GithubOAuth2',
    'django.contrib.auth.backends.ModelBackend',
 )
-
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # Пример настроек для использования консольного бэкенда (для тестирования)
 LOGIN_REDIRECT_URL = '/profile/' # Чтобы после авторизации перенаправлялось на страницу пользователя
 
 SOCIAL_AUTH_GITHUB_KEY = 'Ov23ligY4hV8jFfXVuBX'
 SOCIAL_AUTH_GITHUB_SECRET = '3f13e1058ce9d1ba1c68e954b6ef950bd6cbc712'
 SOCIAL_AUTH_GITHUB_SCOPE = ['user:email', 'read:user']
+
+LOGIN_REDIRECT_URL = '/profile/'
